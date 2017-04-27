@@ -92,6 +92,7 @@ ENV/
 .ropeproject
 
 Будет удалено .gitignore
+Будет удалено .idea/
 Будет удалено .idea/bot.iml
 Будет удалено .idea/dataSources.local.xml
 Будет удалено .idea/dataSources.xml
