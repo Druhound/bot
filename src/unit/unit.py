@@ -22,7 +22,7 @@ class bot():
         else:
             print("Teleportation to start")
             self.node = 0
-        print("{0} -> {1}(+{2} - {3} = {4})".format(temp, self.node, delt_fatigue, self.fatigue))
+        print("{0} -> {1}(+{2} = {3})".format(temp, self.node, delt_fatigue, self.fatigue))
 
 
 

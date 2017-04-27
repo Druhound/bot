@@ -47,7 +47,11 @@ class Directed_graph(digraph):
 
     def weight_edges(self, node, edges):
         array = []
+        # print(node, edges)
         for edge in edges:
             list = (node, edge)
             array.append(self.edge_weight(list))
+            # array.append(dict(zip(node, edge)))
+            # print(array)
+        # print(array)
         return array
